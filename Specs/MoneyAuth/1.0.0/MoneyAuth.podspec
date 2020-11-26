@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform = :ios
     s.source = { 
-      :http => "https://github.com/yandex-money/yooid-sdk-ios/releases/download/#{s.version}/MoneyAuth.zip"
+      :http => "https://github.com/yoomoney/yooid-sdk-ios/releases/download/#{s.version}/MoneyAuth.zip"
     }
 
     s.ios.deployment_target = '10.0'
